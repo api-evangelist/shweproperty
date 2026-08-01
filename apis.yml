@@ -1,7 +1,29 @@
 aid: shweproperty
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shweproperty.png
 name: Shweproperty
-description: Shweproperty is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Shweproperty (ShweProperty.com) is Myanmar's leading online real estate marketplace,
+  founded in 2015, connecting buyers, renters, sellers, and agents across the country.
+  The consumer-facing portal lists residential and commercial properties for sale and
+  rent — apartments, condos, houses, land, shops, offices, and industrial zones — in
+  Yangon, Mandalay, Naypyidaw, and beyond, alongside new-development project listings,
+  home-loan assistance with Myanmar banking partners, property events and expos, and
+  real estate news and buyer guides. The platform carries over 200,000 listings with
+  500+ added daily and handles tens of thousands of monthly sales inquiries. It was
+  surfaced as a 500 Global portfolio company and added to the API Evangelist network.
+  No public developer API, SDK, or documentation surface was found during enrichment;
+  this remains a consumer web and mobile property portal.
 url: https://raw.githubusercontent.com/api-evangelist/shweproperty/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Real Estate
+- Property
+- Marketplace
+- Property Listings
+- PropTech
+- Myanmar
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://shweproperty.com
+  url: https://www.shweproperty.com/en
+- type: SignUp
+  url: https://www.shweproperty.com/en/register
+- type: Login
+  url: https://www.shweproperty.com/en/login
+- type: Support
+  url: https://www.shweproperty.com/en/contact-us
+- type: TermsOfService
+  url: https://www.shweproperty.com/en/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.shweproperty.com/en/privacy-policy
+- type: DomainSecurity
+  url: security/shweproperty-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
