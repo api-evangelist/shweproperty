@@ -47,7 +47,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Property
 - Marketplace
 - Property Listings
@@ -61,6 +61,7 @@ tags_raw:
 - Property Listings
 - PropTech
 - Myanmar
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
